@@ -16,6 +16,10 @@ body {
 /* end general rules */
 
 /* header rules */
+header {
+  background: white;
+  padding: 10px;
+}
 
 header .logo {
   background-image: url(../img/img-header.jpg);
@@ -23,7 +27,6 @@ header .logo {
   height: 200px;
   position: relative;
   text-align: center;
-
 }
 
 header .logo .title {
@@ -45,21 +48,22 @@ header .logo .title .title-site {
 /* menu rules */
 .menu {
   background-color: #504741;
-
 }
 
 header .menu ul {
   list-style-type: none;
   width: 50%; margin:auto;
   font-size: 20px;
-  font-family: arial;
+  font-family: sans-serif;
   height: 43px;
   color: white;
   text-align: center;
+  padding: 10px
 }
 
 header .menu li {
   display: inline;
+  padding: 10px;
 }
 /* end menu rules */
 
@@ -80,17 +84,14 @@ main .col {
   float: left;
 }
 
-main .right {
+main .right,
+main .left {
   width: 30%;
 }
 
 main .middle {
   width: 38%;
   margin: 0 1%;
-}
-
-main .left {
-  width: 30%;
 }
 /* end main rules */
 
@@ -124,9 +125,21 @@ main .archives {
   margin-bottom: 10px;
 }
 
+main .left .archives .archives-title{
+  font-size: 19px;
+  margin: 5px;
+  font-family: fantasy;
+}
+
 main .meta {
   background: white;
-  padding: 20px
+  padding: 20px;
+}
+
+main .meta .title-meta{
+  font-size: 19px;
+  margin: 5px;
+  font-family: fantasy;
 }
 /* end left column */
 
@@ -150,19 +163,33 @@ main .middle .middle-article .title-middle{
 main .searchbox {
   background: white;
   padding: 20px;
-  margin:10px;
 }
 
 main .tag-section {
   background: white;
   padding: 20px;
-  margin: 10px;
+  margin-top: 10px;
+}
+
+main .tag-section .tag-cloud {
+  font-size: 19px;
+  margin: 5px;
+  font-family: fantasy;
 }
 
 /* footer rules */
 footer {
   width: 100%;
-  background: cyan;
-  height: 130px;
+  background: white;
 }
+
+footer .footer-text {
+  text-align: center;
+  padding: 20px;
+  margin: 3px;
+}
+
+/*** NOTE: footer incomplete ***/
+
+
 /* end footer rules */
