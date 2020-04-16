@@ -11,17 +11,18 @@ body {
 }
 
 .mainwrapper {
-  width: 1200px;
+ width: 1280px;
 }
 /* end general rules */
 
 /* header rules */
-header {
-  background: white;
+
+header .container-logo {
   padding: 10px;
+  background: white;
 }
 
-header .logo {
+header .container-logo .logo {
   background-image: url(../img/img-header.jpg);
   background-size: cover;
   height: 200px;
