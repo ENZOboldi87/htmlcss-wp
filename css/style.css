@@ -1,0 +1,173 @@
+/* general rules */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/bgweb.png);
+  width: 50%; margin:auto;
+}
+
+.mainwrapper {
+  width: 1200px;
+}
+/* end general rules */
+
+/* header rules */
+
+header .logo {
+  background-image: url(../img/img-header.jpg);
+  background-size: cover;
+  height: 200px;
+  position: relative;
+  text-align: center;
+
+}
+
+header .logo .title {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .logo .title .title-site {
+  font-size: 50px;
+}
+
+#subtitle-site {
+  font-size: 20px;
+}
+
+/* menu rules */
+.menu {
+  background-color: #504741;
+
+}
+
+header .menu ul {
+  list-style-type: none;
+  width: 50%; margin:auto;
+  font-size: 20px;
+  font-family: arial;
+  height: 43px;
+  color: white;
+  text-align: center;
+}
+
+header .menu li {
+  display: inline;
+}
+/* end menu rules */
+
+/* end header rules */
+
+/* main rules */
+main::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+main {
+  margin: 10px 0;
+}
+
+main .col {
+  float: left;
+}
+
+main .right {
+  background: pink;
+  width: 30%;
+  height: 300px;
+}
+
+main .middle {
+  width: 38%;
+  margin: 0 1%;
+}
+
+main .left {
+  width: 30%;
+}
+/* end main rules */
+
+/* left column */
+main .left .pages-list {
+  background: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+main .left .pages-list .pages-title{
+  font-size: 19px;
+  margin: 5px;
+  font-family: fantasy;
+}
+
+main ul {
+  list-style-type: none;
+}
+
+main li {
+  margin: 7px;
+  padding: 6px;
+  color: green;
+  font-family: cursive;
+}
+
+main .archives {
+  background: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+main .meta {
+  background: white;
+  padding: 20px
+}
+
+/* end left column */
+
+/* middle column */
+main .middle .middle-article {
+  background: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+main .middle .middle-article .title-middle{
+  color: red;
+  font-size: 20px;
+  padding:20px;
+}
+
+
+
+
+
+
+/* end middle colum */
+
+
+
+/* main .bottom-right {
+  height: 300px;
+  width: 30%;
+  background: pink;
+  float: right;
+  margin-top: 1%;
+} */
+
+
+/* footer rules */
+footer {
+  width: 100%;
+  background: cyan;
+  height: 130px;
+}
+/* end footer rules */
