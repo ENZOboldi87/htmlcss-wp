@@ -81,9 +81,7 @@ main .col {
 }
 
 main .right {
-  background: pink;
   width: 30%;
-  height: 300px;
 }
 
 main .middle {
@@ -130,7 +128,6 @@ main .meta {
   background: white;
   padding: 20px
 }
-
 /* end left column */
 
 /* middle column */
@@ -141,28 +138,26 @@ main .middle .middle-article {
 }
 
 main .middle .middle-article .title-middle{
-  color: red;
-  font-size: 20px;
-  padding:20px;
+  color: #828282;
+  font-size: 25px;
+  padding: 17px;
+  font-family: serif;
+}
+/* end middle column */
+
+/* right column */
+
+main .searchbox {
+  background: white;
+  padding: 20px;
+  margin:10px;
 }
 
-
-
-
-
-
-/* end middle colum */
-
-
-
-/* main .bottom-right {
-  height: 300px;
-  width: 30%;
-  background: pink;
-  float: right;
-  margin-top: 1%;
-} */
-
+main .tag-section {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+}
 
 /* footer rules */
 footer {
